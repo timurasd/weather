@@ -23,6 +23,21 @@ example:
 };
 ```
 and then add it to array of adgroups (i comented it in code)
+# Weather API
+Api call example 
+---
+Geo id set to Moscow  
+```
+http://api.openweathermap.org/data/2.5/weather?id=524901&APPID=5e97a4d9ca71c022dc0dcd8413488a09&units=metric 
+```
+Field references can be found here:
+https://openweathermap.org/weather-data
+City id can be found here:
+https://openweathermap.org/find?q=
+
+and also in this file (best way as for me)
+
+http://bulk.openweathermap.org/sample/city.list.json.gz
 
 # Google script 
 Work with video campaigns ad adgroups with examples:
